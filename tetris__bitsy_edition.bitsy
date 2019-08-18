@@ -1,4 +1,4 @@
-Tetris: a Bitsy demake
+Tetris: Bitsy Edition
 
 # BITSY VERSION 6.3
 
@@ -7,6 +7,21 @@ Tetris: a Bitsy demake
 PAL 0
 0,82,204
 128,159,255
+255,255,255
+
+PAL 1
+37,37,37
+255,22,22
+255,255,255
+
+PAL 2
+26,56,110
+92,115,184
+137,82,198
+
+PAL 3
+57,57,124
+202,17,17
 255,255,255
 
 ROOM 0
@@ -35,25 +50,26 @@ PAL 0
 
 ROOM 1
 60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60
-60,0,0,0,0,64,66,64,66,64,66,64,66,64,66,60
-60,0,0,0,0,65,0,65,0,65,0,65,0,65,0,60
-60,0,0,0,6p,0,0,0,0,0,0,0,0,0,0,60
-60,0,64,66,64,66,64,66,64,66,64,66,64,66,0,60
-60,0,65,0,65,0,65,0,65,0,65,0,65,0,0,60
+60,0,6s,0,0,64,66,0,64,0,64,64,66,64,66,60
+60,0,6t,0,0,65,64,66,65,0,65,65,0,65,64,60
+60,0,0,0,6p,0,65,0,64,0,0,0,0,0,65,60
+60,0,64,66,64,66,0,66,65,66,64,64,64,66,0,60
+60,0,65,0,65,0,0,0,0,0,65,65,65,0,0,60
 60,0,0,0,0,0,6p,0,0,0,0,0,0,0,0,60
-60,0,0,64,66,64,66,64,66,64,66,64,66,6p,0,60
-60,0,0,65,0,65,0,65,0,65,0,65,0,0,0,60
-60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-60,0,64,66,64,66,64,66,64,66,64,66,0,0,0,0
-60,0,65,0,65,0,65,0,65,0,65,0,0,6p,0,60
-60,0,0,0,6p,0,0,0,0,0,0,0,0,0,0,60
-60,0,0,64,66,64,66,64,66,64,66,64,66,0,0,60
-60,0,0,65,0,65,0,65,0,65,0,65,0,0,0,60
+60,0,0,64,66,0,66,64,66,64,66,64,64,66,0,60
+60,0,0,65,0,0,64,65,0,65,0,65,65,0,0,60
+60,0,0,64,0,0,65,0,0,0,0,0,0,0,0,0
+60,0,0,65,0,66,0,66,64,66,64,66,0,0,0,0
+60,0,0,0,0,0,0,0,65,0,65,0,0,6p,0,60
+60,0,64,0,6p,0,0,0,0,0,0,0,0,0,0,60
+60,0,65,64,66,64,64,64,66,64,66,64,64,66,0,60
+60,0,0,65,0,65,65,65,0,65,0,65,65,0,0,60
 60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60
 NAME Dorm
+ITM 5 11,6
 EXT 15,10 2 0,10 FX slide_r
 EXT 15,9 2 0,9 FX slide_r
-PAL 0
+PAL 2
 
 ROOM 2
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -96,9 +112,23 @@ ROOM 3
 0,0,68,0,0,0,0,0,0,0,0,69,0,0,0,0
 0,0,68,0,0,0,0,0,0,0,0,69,0,0,0,0
 NAME terminus
-ITM 0 5,3
 ITM 1 7,4
 ITM 1 7,7
+ITM 1 5,6
+ITM 1 8,9
+ITM 1 6,9
+ITM 1 4,11
+ITM 1 4,8
+ITM 1 7,12
+ITM 1 8,6
+ITM 1 8,2
+ITM 1 5,4
+ITM 1 5,1
+ITM 1 9,11
+ITM 1 6,13
+ITM 1 3,3
+ITM 1 10,8
+ITM 1 3,13
 EXT 3,15 4 3,0 FX slide_d
 EXT 4,15 4 4,0 FX slide_d
 EXT 5,15 4 5,0 FX slide_d
@@ -107,13 +137,13 @@ EXT 7,15 4 7,0 FX slide_d
 EXT 8,15 4 8,0 FX slide_d
 EXT 9,15 4 9,0 FX slide_d
 EXT 10,15 4 10,0 FX slide_d
-PAL 0
+PAL 3
 
 ROOM 4
 0,0,68,0,0,0,0,0,0,0,0,69,0,0,0,0
 0,0,68,0,0,0,0,0,0,0,0,69,0,6a,6b,0
 0,0,68,6n,6n,6n,6n,6n,6n,6n,6n,69,0,6c,6d,0
-0,0,68,5,e,5,57,7,6o,6o,57,69,0,0,0,0
+0,0,68,5,e,5,57,7,6o,6o,0,69,0,0,0,0
 0,0,68,4y,0,5g,57,3k,57,4e,31,69,6e,6f,6g,0
 0,0,68,2n,2n,0,1e,28,0,5g,e,69,0,0,0,0
 0,0,68,26,1g,4y,1g,3k,5g,26,e,69,6h,6i,6j,0
@@ -134,8 +164,8 @@ END 3 6,2
 END 4 7,2
 END 5 8,2
 END 6 9,2
-END 7 10,2
-PAL 0
+END 7 10,3
+PAL 1
 
 ROOM 5
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2807,6 +2837,15 @@ TIL 6n
 00000000
 00000000
 00000000
+>
+00000000
+00000000
+00000000
+00000000
+01010101
+00000000
+00000000
+00000000
 
 TIL 6o
 00000000
@@ -2849,6 +2888,28 @@ TIL 6r
 00000100
 00000000
 
+TIL 6s
+00000000
+01111110
+10000001
+10111101
+10100101
+10111001
+10000001
+10000001
+WAL false
+
+TIL 6t
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+01000001
+WAL false
+
 SPR A
 11111111
 11111111
@@ -2860,12 +2921,12 @@ SPR A
 11111111
 >
 11111111
-10111101
 11111111
 11111111
 11111111
 11111111
-10111101
+11111111
+11111111
 11111111
 POS 0 6,8
 
@@ -2911,14 +2972,23 @@ SPR d
 00001111
 00001111
 00001111
-00001110
-11110111
+00001111
 11111111
 11111111
 11111111
+11111111
+>
+00001111
+00001111
+00001111
+00001111
+00000000
+00000000
+00000000
+00000000
 NAME Z1
 DLG SPR_3
-POS 2 5,11
+POS 5 4,10
 
 SPR e
 11110000
@@ -2929,28 +2999,38 @@ SPR e
 00000000
 00000000
 00000000
+>
+11110000
+11110000
+11110000
+11110000
+11110000
+11110000
+11110000
+11110000
 NAME Z2
-POS 2 6,11
+DLG SPR_7
+POS 5 5,10
 
 SPR f
 11111111
-10111101
 11111111
 11111111
 11111111
 11111111
-10111101
+11111111
+11111111
 11111111
 NAME B
 DLG SPR_6
-POS 5 4,10
+POS 2 12,9
 
 SPR g
 00001111
 00001111
 00001111
 00001111
-11110110
+11111111
 11111111
 11111111
 11111111
@@ -2968,6 +3048,7 @@ SPR h
 11110000
 11110000
 NAME t2
+DLG SPR_e
 POS 2 9,11
 
 SPR i
@@ -2981,24 +3062,28 @@ SPR i
 00000000
 
 SPR j
-00001111
-00001111
-00001111
-00001111
-11110110
+11110000
+11110000
+11110000
+11110000
 11111111
 11111111
 11111111
+11111111
+DLG SPR_f
+POS 5 9,10
 
 SPR k
-00000000
-00000000
-00000000
-00000000
 11110000
 11110000
 11110000
 11110000
+00000000
+00000000
+00000000
+00000000
+DLG SPR_g
+POS 5 9,11
 
 SPR l
 00001111
@@ -3010,10 +3095,11 @@ SPR l
 00001111
 00001111
 NAME l1
-POS 5 12,9
+DLG SPR_8
+POS 2 3,10
 
 SPR m
-11110111
+11111111
 11111111
 11111111
 11111111
@@ -3022,26 +3108,115 @@ SPR m
 00000000
 00000000
 DLG SPR_5
-POS 5 12,10
+POS 2 3,11
 
-ITM 0
-00000000
-00000000
-00000000
-00100000
+SPR n
 00000000
 00000000
 00000000
 00000000
-NAME sound1
-DLG ITM_0
+00000000
+00000000
+00000000
+00000000
+
+SPR o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR p
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00001111
+00001111
+00001111
+00001111
+NAME Z3
+DLG SPR_9
+POS 5 4,9
+
+SPR q
+00000000
+01111110
+10000001
+10111001
+10100101
+10111101
+10000001
+10000001
+DLG SPR_a
+POS 1 8,10
+
+SPR r
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+01000001
+DLG SPR_b
+POS 1 8,11
+
+SPR s
+00000000
+01111110
+10000001
+10111001
+10100101
+10111101
+10000001
+10000001
+DLG SPR_c
+POS 1 6,8
+
+SPR t
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+01000001
+DLG SPR_d
+POS 1 6,9
+
+SPR u
+00000000
+00001100
+00011110
+00111110
+01000100
+01001000
+00110000
+00000000
+NAME pill
 
 ITM 1
 00000000
 00000000
 00000000
 00000000
-00000100
+00000000
 00000000
 00000000
 00000000
@@ -3062,27 +3237,37 @@ DLG ITM_2
 ITM 3
 00000000
 00111000
+01011100
+01001110
+00111100
 01101100
-01010110
-01111100
 01011100
-01011100
-01111110
+00111110
 DLG ITM_3
 
 ITM 4
 00000000
 00000000
 00000000
-00010000
-00111000
-00101000
-00010000
+00000000
+00000000
+00000000
+00100000
 00000000
 DLG ITM_4
 
+ITM 5
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
 DLG SPR_1
-I wish I could go back to bed..
+I don't think I'm ready for today..
 
 DLG SPR_2
 I had a weird dream...
@@ -3095,9 +3280,10 @@ I slept in...
 
 DLG SPR_3
 """
-Good morning comrade {printSprite "B"}.
+Remember your training.
 
-We thought we'd let you sleep in...
+Press "R" to rotate your way into an optimal position... {clr2}oh{clr2}, a {printSprite "B"}...
+the important thing is not to panic. Do it just like the simulations.
 """
 
 DLG SPR_4
@@ -3105,34 +3291,33 @@ DLG SPR_4
 Today's the day, huh?
 
 
-Nowhere to go but down, heh
+Nowhere to go but down, heheh
 """
 
-DLG ITM_0
-{shk}*grinding*{shk}
-
 DLG ITM_1
-many voices {shk}*screaming*{shk}
+"""
+{shuffle
+  - You feel sick
+  - The sounds are getting louder 
+  - It's just like your nightmares
+  - You hear terrible noises
+  - The shaft smells like metal and the walls are greasy
+}
+"""
 
 DLG SPR_5
 """
-Remember your training.
+Morning comrade {printSprite "B"}.
 
-Press "R" to rotate... {clr2}oh{clr2}...
-
-Just stay calm and find your spot.
-
+We thought we'd let you sleep in a bit today...
 """
-
-DLG SPR_6
-This is important. 
 
 DLG ITM_2
 """
-My helmet.
+Standard issue helmet.
 
 
-... it still doesn't fit.
+"one size fits all"
 """
 
 DLG ITM_3
@@ -3140,10 +3325,76 @@ Parachute. Triple-checked it last night.
 
 DLG ITM_4
 """
-A capsule. 
+A small white capsule. 
+{printSprite "pill"}
 
-I thought these were just a rumor... 
+I thought that was just a rumor to scare cadets... 
 """
+
+DLG SPR_7
+"""
+Remember your training.
+
+Press "R" to rotate your way into an optimal position... {clr2}oh{clr2}, a {printSprite "B"}...
+the important thing is not to panic. Do it just like the simulations.
+"""
+
+DLG SPR_8
+"""
+Morning comrade {printSprite "B"}.
+
+We thought we'd let you sleep in a bit today...
+"""
+
+DLG SPR_9
+"""
+Remember your training.
+
+Press "R" to rotate your way into an optimal position... {clr2}oh{clr2}...
+a square...
+the important thing is to keep your head clear. 
+It's always longer drop than you think
+"""
+
+DLG SPR_a
+So many empty beds these days...
+
+DLG SPR_b
+These beds were all full once
+
+DLG SPR_c
+"""
+None of us fit right on these beds.  
+Now that there are extras, we push them together.
+"""
+
+DLG SPR_d
+Command used to inspect the dorms. They have more important things on their plate these days.
+
+DLG SPR_e
+"""
+Today's the day, huh?
+
+
+Nowhere to go but down, heheh
+"""
+
+DLG SPR_f
+"""
+It's up to you now.
+
+Your kit is set up in the staging room.
+"""
+
+DLG SPR_g
+"""
+It's up to you now.
+
+Your kit is set up in the staging room.
+"""
+
+DLG SPR_6
+We're here for a reason. I'm thankful for the chance to help. 
 
 END 0
 game over.
@@ -3167,7 +3418,13 @@ END 6
 The end
 
 END 7
-game over.
+"""
+you slide cleanly into place among the groaning bodies.
+
+The row is clear, and the system can continue
+
+ 
+"""
 
 VAR a
 42
