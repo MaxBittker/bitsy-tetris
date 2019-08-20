@@ -1,0 +1,30 @@
+{
+  "name": "bitsy-boilerplate",
+  "version": "1.0.0",
+  "description": "tool for building bitsy games",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-watch build",
+    "build": "node --experimental-modules index.mjs"
+  },
+  "author": "Sean S. LeBlanc",
+  "license": "MIT",
+  "dependencies": {
+    "@bitsy/hecks": "^5.0.0",
+    "@bitsy/optimizer": "^1.0.1",
+    "Bitsy": "github:le-doux/bitsy#9c3dcc5dafd77023c67d9b532d207f431eccd88b",
+    "npm-watch": "^0.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss": "^7.0.17"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "input"
+      ],
+      "extensions": "txt,js,mjs,css"
+    }
+  }
+}
