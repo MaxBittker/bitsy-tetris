@@ -66,6 +66,8 @@ async function build() {
   <style>
   body{
     background-color: black;
+    touch-action: none;
+
   }
   </style>
 	<script>
@@ -76,7 +78,18 @@ async function build() {
 function preventBehavior(e) {
   e.preventDefault();
 }
-
+let audioHasBeenTested = false;
+function testAudio(){
+  if(audioHasBeenTested){
+    return
+  }
+  let audio = document.getElementById("longer");
+  console.log(audio);
+  audio.play();audio.pause();
+  audioHasBeenTested = true;
+}
+document.addEventListener("click", testAudio);
+document.addEventListener("touchstart", testAudio);
 document.addEventListener("touchmove", preventBehavior, { passive: false });
 </script>
 	  </head>`
