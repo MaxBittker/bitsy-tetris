@@ -1,3 +1,5 @@
+// https://github.com/seleb/bitsy-boilerplate
+
 import fs from "fs";
 import getCss from "./getCss";
 import optimize from "@bitsy/optimizer";
@@ -58,7 +60,13 @@ async function build() {
     "@@E": bitsy,
     "@@N": fontName,
     "@@M": fontData,
-    "</head>": ["<script>", builtHacks[0], "</script>", "</head>"].join("\n")
+    "</head>": `
+	<audio id="short" src="./short.ogg" loop></audio>
+	<audio id="longer" src="./longer.mp3" loop></audio>
+	<script>
+	 ${builtHacks[0]} 
+	 </script>
+	  </head>`
   };
 
   const html = Object.entries(config).reduce(

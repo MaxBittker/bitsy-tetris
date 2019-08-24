@@ -2,8 +2,9 @@ import { hackOptions as bitsymuse } from "@bitsy/hecks/src/bitsymuse";
 import { hackOptions as multiSprite } from "@bitsy/hecks/src/multi-sprite avatar";
 
 bitsymuse.musicByRoom = {
-  terminus: "short",
-  bottom: "short"
+  // Dorm: "longer",
+  terminus: "longer",
+  bottom: "longer"
 };
 // console.log("test");
 
