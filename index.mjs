@@ -61,8 +61,13 @@ async function build() {
     "@@N": fontName,
     "@@M": fontData,
     "</head>": `
-	<audio id="short" src="./short.ogg" loop></audio>
-	<audio id="longer" src="./longer.mp3" loop></audio>
+  <audio id="longer" src="./longer.mp3" loop></audio>
+  
+  <style>
+  body{
+    background-color: black;
+  }
+  </style>
 	<script>
 	 ${builtHacks[0]} 
 	 </script>
