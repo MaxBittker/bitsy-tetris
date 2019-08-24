@@ -1,7 +1,10 @@
 # bitsy-tetris
 
+   Tetris, the classic game, lovingly demade into the 1-bit world of [bitsy](https://ledoux.itch.io/bitsy).
+
+A brand new tetromino-based interactive experience 
+
 play [here](https://maxbittker.github.io/bitsy-tetris/)
-tetris demake in bitsy engine
 
 ![screenshots/down](screenshots/down.png)
 ![screenshots/dorm](screenshots/dorm.png)
