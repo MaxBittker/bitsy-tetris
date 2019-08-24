@@ -3692,8 +3692,6 @@ DLG ITM_2
 """
 Standard issue helmet.
 
-
-"one size fits all"
 """
 
 DLG ITM_3
@@ -3806,7 +3804,7 @@ DLG ITM_7
 i feel so huge trying to squeeze my way around the dorms
 
 DLG ITM_8
-i'm {clr3}afraid{clr3}.
+there's no choice but to go through with it.
 
 DLG SPR_o
 there aren't many of us left. its up to you now.
