@@ -1,8 +1,8 @@
 # bitsy-tetris
 
 play [here](https://maxbittker.github.io/bitsy-tetris/)
-
 tetris demake in bitsy engine
+
 ![screenshots/down](screenshots/down.png)
 ![screenshots/dorm](screenshots/dorm.png)
 
