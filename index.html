@@ -12821,7 +12821,15 @@ hackOptions$1.pieces = [
 
 }(window));
  
-	 </script>
+   </script>
+   <script>
+
+function preventBehavior(e) {
+  e.preventDefault();
+}
+
+document.addEventListener("touchmove", preventBehavior, { passive: false });
+</script>
 	  </head>
 
 

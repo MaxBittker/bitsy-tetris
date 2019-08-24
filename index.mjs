@@ -70,7 +70,15 @@ async function build() {
   </style>
 	<script>
 	 ${builtHacks[0]} 
-	 </script>
+   </script>
+   <script>
+
+function preventBehavior(e) {
+  e.preventDefault();
+}
+
+document.addEventListener("touchmove", preventBehavior, { passive: false });
+</script>
 	  </head>`
   };
 
